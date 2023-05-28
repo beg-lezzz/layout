@@ -4,20 +4,27 @@
     text-decoration: none;
 }
 
-.container {
-    display: block;
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
-    padding-left: 375px;
-    padding-right: 375px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
 .header_logo {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__logo__image {
@@ -43,8 +50,15 @@
 }
 
 .header__menu {
+    display: flex;
+    gap: 30px;
     padding-top: 11px;
     padding-bottom: 12px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu__first__link {
@@ -69,8 +83,12 @@
     display: flex;
     padding-bottom: 162px;
     padding-top: 84px;
-    padding-left: 375px;
-    padding-right: 375px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
 }
 
 .top__info {
@@ -79,9 +97,29 @@
 
 .title {
     padding-bottom: 17px;
+    width: 522px;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.subtitle {
+    width: 466px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
 }
 
 .top__buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 72px;
     padding-top: 37px;
     margin: 2px;
 }
@@ -104,16 +142,20 @@
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
-    color: #AAA;
+    color: #AAAAAA;
 }
 
 .top__image {
-    display: inline;
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
     padding-top: 97px;
     padding-bottom: 96px;
-    padding-left: 375px;
-    padding-right: 375px;
 }
