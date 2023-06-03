@@ -56,7 +56,6 @@
     padding-bottom: 12px;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: center;
     justify-content: center;
     align-items: center;
 }
@@ -86,9 +85,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 39px;
 }
 
 .top__info {
@@ -97,7 +95,7 @@
 
 .title {
     padding-bottom: 17px;
-    width: 522px;
+    max-width: 522px;
     font-family: 'Gilroy-Bold';
     font-size: 60px;
     line-height: 70px;
@@ -105,7 +103,7 @@
 }
 
 .subtitle {
-    width: 466px;
+    max-width: 466px;
     font-family: 'Gilroy-Medium';
     font-size: 20px;
     line-height: 23px;
