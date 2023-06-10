@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.header {
+    background: #222222;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 18px 41px 19px 0;
+    cursor: pointer;
+}
+
+.top__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.left__top_menu {
+    padding-top: 28px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.right__top_menu {
+    display: flex;
+    gap: 33px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.top {
+    background: #F1E4E6;
+}
+
+.top__content {
+    background: url(img/back_photo.png) no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.top__photo {
+    background: url(img/back_photo.png) no-repeat;
+    height: 250px;
+}
+
+.top__info {
+    font-style: normal;
+    color: #222222;
+    display: flex;
+    padding-top: 290px;
+    padding-bottom: 381px;
+}
+
+.pink__decorate {
+    color: #F16D7F;
+}
+
+.top__h_text {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.top__p_text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.top__text {
+    padding-left: 16px;
+}
+
+.main__cards {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+
+.top__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 105px 0;
+    cursor: pointer;
+}
+
+.for__women {
+    background: url("img/Layer 43.png") no-repeat;
+    flex-grow: 1;
+}
+
+.for__men {
+    background: url("img/men.png") no-repeat;
+    flex-grow: 1;
+}
+
+.for__kids {
+    background: url("img/kids.png") no-repeat;
+}
+
+.accessories {
+    background: url("img/access.svg") no-repeat;
+    padding: 65px 0;
+}
+
+.card__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cards__text_decorate {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.featured__items {
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.featured__header {
+    padding-top: 96px;
+    padding-bottom: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.featured__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+
+}
+
+.featured__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 48px;
+    gap: 30px
+}
+
+.featured__card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 30%;
+    background: #F8F8F8;
+    cursor: pointer;
+}
+
+.product__name {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-bottom: 16px;
+    text-align: left;
+}
+
+.product__info {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-align: left;
+}
+
+.product__price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    padding-top: 16px;
+    text-align: left;
+}
+
+.product__text {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 19px 16px;
+    justify-content: flex-start;
+}
+
+.browse__all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 61px;
+    padding-top: 49px;
+}
+
+.browse__all_button {
+    border: 1px solid #FF6A6A;
+    padding: 14px 39px;
+    cursor: pointer;
+}
+
+.browse__all_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+
+}
