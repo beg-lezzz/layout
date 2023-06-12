@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #222222;
+    padding: 1rem 2rem;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-right: 2.5rem;
+    cursor: pointer;
+}
+
+.top__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.left__top_menu {
+    cursor: pointer;
+}
+
+.right__top_menu {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.top {
+    background: #F1E4E6;
+}
+
+.top__content {
+    display: flex;
+}
+
+.top__left {
+    width: 50%;
+}
+
+.top__right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top__text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    border-left: #F16D7F 1rem solid;
+}
+
+.pink__decorate {
+    color: #F16D7F;
+}
+
+.top__h_text {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.top__p_text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.main__menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 65px;
+}
+
+.card {
+    width: 30%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accessories {
+    width: 100%;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+}
+
+.cards__text_decorate {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.featured__items {
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.featured__header {
+    padding-top: 96px;
+    padding-bottom: 6px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.featured__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+
+}
+
+.featured__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 48px;
+    gap: 30px
+}
+
+.featured__card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 30%;
+    background: #F8F8F8;
+    cursor: pointer;
+}
+
+.product__name {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-bottom: 16px;
+    text-align: left;
+}
+
+.product__info {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    text-align: left;
+}
+
+.product__price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-top: 16px;
+    text-align: left;
+}
+
+.product__text {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 19px 16px;
+    justify-content: flex-start;
+}
+
+.browse__all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 61px;
+    padding-top: 49px;
+}
+
+.browse__all_button {
+    border: 1px solid #FF6A6A;
+    padding: 14px 39px;
+    cursor: pointer;
+}
+
+.browse__all_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+
+}
+
+.image__wrapper {
+    display: none;
+}
+
+.button__in_cart {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+}
+
+.card__photo {
+    position: relative;
+}
+
+.button__icon {
+    margin-right: 10px;
+}
+
+.featured__card:hover .image__wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background: rgba(58, 56, 56, 0.86);
+}
+
+@media screen and (max-width: 768px) {
+    .top__h_text {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .top__p_text {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .center {
+        padding-left: calc(50% - 367px);
+        padding-right: calc(50% - 367px);
+    }
+
+    .featured__card {
+        width: 47%;
+    }
+}
