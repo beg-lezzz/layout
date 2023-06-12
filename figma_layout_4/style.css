@@ -9,6 +9,10 @@ img {
     width: 100%;
 }
 
+.content {
+    padding: 3% 2% 0;
+}
+
 .center {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
@@ -94,11 +98,14 @@ img {
 }
 
 .main__menu {
+    padding-top: 65px;
+}
+
+.main__menu_container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 65px;
 }
 
 .card {
