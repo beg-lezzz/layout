@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-style: normal;
+    box-sizing: border-box;
 }
 
 img {
@@ -115,6 +116,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card:hover {
+    position: relative;
+    opacity: 1;
+    transform: scale(1.03);
+    transition: all .6s;
 }
 
 .accessories {
@@ -233,6 +241,17 @@ img {
     line-height: 19px;
     color: #F26376;
 
+}
+
+.browse__all_button:hover {
+    border: none;
+    color: #FFF;
+    background: #F16D7F;
+}
+
+.browse__all_button:hover .browse__all_text {
+    border: none;
+    color: #FFF;
 }
 
 .image__wrapper {
