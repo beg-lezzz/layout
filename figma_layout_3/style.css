@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.img-flex img {
+    width: 100%;
 }
 
 .center {
@@ -49,14 +54,14 @@
 }
 
 .top__content {
-    background: url(img/back_photo.png) no-repeat;
+    background: url(../figma_layout_4/img/back_photo.png) no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
 .top__photo {
-    background: url(img/back_photo.png) no-repeat;
+    background: url(../figma_layout_4/img/back_photo.png) no-repeat;
     height: 250px;
 }
 
@@ -89,8 +94,6 @@
 }
 
 .main__cards {
-    display: flex;
-    flex-direction: column;
     background: #FFFFFF;
     padding-top: 65px;
 }
@@ -104,38 +107,28 @@
 .card {
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-content: center;
+    align-items: center;
+    width: 31%;
     margin-bottom: 30px;
-    padding: 105px 0;
+    /*padding: 105px 0;*/
     cursor: pointer;
-}
-
-.for__women {
-    background: url("img/Layer 43.png") no-repeat;
-    flex-grow: 1;
-}
-
-.for__men {
-    background: url("img/men.png") no-repeat;
-    flex-grow: 1;
-}
-
-.for__kids {
-    background: url("img/kids.png") no-repeat;
+    position: relative;
 }
 
 .accessories {
-    background: url("img/access.svg") no-repeat;
     padding: 65px 0;
 }
 
 .card__text {
-    font-style: normal;
+    display: flex;
+    flex-direction: column;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
     text-align: center;
+    position: absolute;
 }
 
 .cards__text_decorate {
@@ -249,4 +242,11 @@
     line-height: 19px;
     color: #F26376;
 
+}
+
+@media screen and (max-width: 768px) {
+    .center {
+        padding-left: calc(50% - 367px);
+        padding-right: calc(50% - 367px);
+    }
 }
