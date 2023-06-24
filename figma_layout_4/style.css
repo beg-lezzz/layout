@@ -79,13 +79,6 @@ img {
     list-style-type: none;
     margin-left: 0;
     padding-left: 22px;
-    /*margin-bottom: 1em;*/
-}
-
-.hover__menu_items {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 22px;
 }
 
 .hover__menu_item {
@@ -96,6 +89,11 @@ img {
     text-decoration: none;
     color: #6F6E6E;
     font-size: 14px;
+}
+
+.hover__menu_link:hover {
+    color: #F16D7F;
+    font-weight: bold;
 }
 
 .hover__menu_h1 {
