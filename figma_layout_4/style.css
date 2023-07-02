@@ -153,7 +153,7 @@ img {
   display: block;
   padding: 0 16px 16px;
   background: #FFF;
-  box-shadow: 0px 39px 35px -16px rgba(22, 24, 26, 0.24);
+  box-shadow: 0 39px 35px -16px rgba(22, 24, 26, 0.24);
 }
 .filter[open] {
   background: #FFF;
@@ -591,6 +591,34 @@ img {
   flex-direction: column;
   padding: 25px 0 19px 16px;
   justify-content: flex-start;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+  padding-bottom: 97px;
+}
+.pagination__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 16px;
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+}
+.pagination__link {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  color: #C4C4C4;
+}
+.pagination__link:hover {
+  color: #F16D7F;
+}
+.pagination__link:hover path {
+  fill: #F16D7F;
 }
 
 .browse__all {
