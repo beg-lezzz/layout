@@ -1,0 +1,89 @@
+.registration {
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0 96px 0;
+    gap:128px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+}
+
+.radio-box {
+  display: flex;
+  flex-direction: row;
+  padding: 11px 0;
+}
+
+.radio__simple{
+  padding: 0 20px 0 10px;
+  color: #234567;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.form {
+
+  &__heading {
+    color: #222;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  &__subinfo {
+    color: #B1B1B1;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 18px;
+    margin-top: -11px;
+  }
+}
+
+.info {
+
+  &__ul {
+    padding-top: 21px;
+  }
+
+  &__li {
+    list-style-type: none;
+    padding-bottom: 16px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+
+    &::before {
+      content: url("../img/marker-reg.png");
+      padding-right: 10px;
+    }
+  }
+}
+
+.info__heading {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.info__text {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+}

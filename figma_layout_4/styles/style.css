@@ -45,8 +45,9 @@
 .button__simple {
   border: #A4A4A4 1px solid;
   padding: 16px 40px;
-  display: block;
-  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   transition: all 0.3s;
 }
 .button__simple:hover {
@@ -68,13 +69,17 @@
 .button__simple_pink {
   border: #A4A4A4 1px solid;
   padding: 16px 40px;
-  display: block;
-  float: left;
+  display: flex;
+  align-items: center;
   background: #F16D7F;
   transition: all 0.3s;
+  gap: 16px;
 }
 .button__simple_pink:hover {
   background: #FFFFFF;
+}
+.button__simple_pink:hover path {
+  fill: #4A4A4A;
 }
 .button__simple_pink:hover .button__text {
   color: #4A4A4A;
@@ -119,9 +124,14 @@
 .button__text_mini {
   font-size: 11px;
 }
+.button__text_middle {
+  font-size: 12px;
+}
+.button__text_large {
+  font-size: 16px;
+}
 .button__text_white {
   color: #FFF;
-  font-size: 16px;
 }
 
 .input__simple {
@@ -196,6 +206,82 @@
   /* display: none; <- Crashes Chrome on hover */
   -webkit-appearance: none;
   margin: 0;
+}
+
+.registration__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 0 96px 0;
+  gap: 128px;
+}
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.registration__info {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.radio-box {
+  display: flex;
+  flex-direction: row;
+  padding: 11px 0;
+}
+
+.radio__simple {
+  padding: 0 20px 0 10px;
+  color: #234567;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.form__heading {
+  color: #222;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+}
+.form__subinfo {
+  color: #B1B1B1;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 18px;
+  margin-top: -11px;
+}
+
+.info__ul {
+  padding-top: 21px;
+}
+.info__li {
+  list-style-type: none;
+  padding-bottom: 16px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+}
+.info__li::before {
+  content: url("../img/marker-reg.png");
+  padding-right: 10px;
+}
+
+.info__heading {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.info__text {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
 }
 
 * {

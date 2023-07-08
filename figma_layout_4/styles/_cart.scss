@@ -51,8 +51,10 @@
 .button__simple {
   border: #A4A4A4 1px solid;
   padding: 16px 40px;
-  display: block;
-  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  //float: left;
   transition: all 0.3s;
 
   &:hover {
@@ -79,13 +81,18 @@
   &_pink {
     border: #A4A4A4 1px solid;
     padding: 16px 40px;
-    display: block;
-    float: left;
+    display: flex;
+    align-items: center;
     background: $decorColor;
     transition: all 0.3s;
+    gap: 16px;
 
     &:hover {
       background: #FFFFFF;
+    }
+
+    &:hover path {
+      fill: #4A4A4A;
     }
 
     &:hover .button__text {
@@ -139,9 +146,16 @@
     font-size: 11px;
   }
 
+  &_middle {
+    font-size: 12px;
+  }
+
+  &_large {
+    font-size: 16px;
+  }
+
   &_white {
     color: #FFF;
-    font-size: 16px;
   }
 }
 
