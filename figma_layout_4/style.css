@@ -780,8 +780,7 @@ img {
 
 .face__icon {
   padding-bottom: 30px;
-  -o-object-fit: none;
-     object-fit: none;
+  object-fit: none;
   width: auto;
 }
 
@@ -911,8 +910,7 @@ img {
     padding-right: calc(50% - 367px);
   }
   .img__logo {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
   .featured__card {
     width: 47%;
@@ -970,8 +968,7 @@ img {
   }
   img {
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .featured__card {
     width: 100%;
@@ -1007,4 +1004,6 @@ img {
     padding-top: 43px;
     padding-bottom: 40px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
