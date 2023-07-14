@@ -1311,6 +1311,7 @@ img {
   .cart__items {
     width: 100%;
     padding-bottom: 48px;
+    padding-top: 39px;
   }
   .cart__form {
     width: 100%;
@@ -1381,6 +1382,7 @@ img {
     flex-direction: column;
     padding-left: 3%;
     padding-right: 3%;
+    padding-bottom: 40px;
     gap: 40px;
   }
   .info__heading {
